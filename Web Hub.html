@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page by Nont</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nont's Web Hub</h1>
+        <p>Explore Movies, Music, and Games</p>
+    </header>
+
+    <nav id="navButtons">
+        <a href="#" onclick="changeContent('home')">
+            Home
+            <span class="description">Go back to the main page</span>
+        </a>
+        <a href="#" onclick="changeContent('movie')">
+            Movie
+            <span class="description">Explore movie projects</span>
+        </a>
+        <a href="#" onclick="changeContent('music')">
+            Music
+            <span class="description">Discover music-related projects</span>
+        </a>
+        <a href="#" onclick="changeContent('game')">
+            Game
+            <span class="description">Play fun web games</span>
+        </a>
+    </nav>
+
+    <main>
+        <iframe id="contentFrame" src="" frameborder="0"></iframe>
+    </main>
+
+    <footer>
+        <p>Website created by Nont | &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
